@@ -1,0 +1,80 @@
+body {
+  font-family: Martel;
+
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  h1 {
+    line-height: 70px;
+  }
+}
+
+.hero {
+  background-image: url("https://cdn.shopify.com/s/files/1/0150/6262/files/19109-01-545v2_2500x.progressive.jpg?v=1559142133");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 800px;
+}
+
+.logo {
+  border-bottom: 1px solid black;
+  margin: 0 40px;
+  padding-top: 20px;
+   p {
+    font-weight: 600;
+    font-size: 24px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  :nth-child(2) {
+    float: right;
+  }
+}
+
+.navigation {
+  font-size: 16px;
+  padding: 20px 40px 0;
+  li {
+    padding-right: 20px;
+    display: inline-block;
+    cursor: pointer;
+    &:hover {
+      border-bottom: 1px solid #000;
+      transition-duration: 0.3s;
+    }
+  }
+  .nav-list-left {
+    display: inline-block;
+  }
+  .nav-list-right {
+    float: right;
+    display: inline-block;
+    :nth-child(3) {
+      padding-right: 0;
+    }
+  }
+}
+
+.plants-make-people-happy {
+  img {
+    padding: 70px  0  30px 74px ;
+    max-width: 477px;
+  }
+}
+
+.plants-make-people-happy-mobile {
+  display: none;
+}
+
+.shop-button {
+  padding-left: 74px;
+}
+
+.material-icons {
+  position: relative;
+  top: 7px;
+}
